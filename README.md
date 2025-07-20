@@ -1,7 +1,9 @@
-🏡 Cluj Housing Price Prediction with Random Forest
+# **🏡 Cluj Housing Price Prediction with Random Forest**
+
 Welcome to my machine learning project where I built a predictive model to estimate house prices in Cluj, Romania 🇷🇴 using real-world property data and Random Forest Regression 🌲.
+
 ----------------------------------------------------
-🧰 Tech Stack
+## **🧰 Tech Stack**
 Python 🐍
 
 Pandas, NumPy
@@ -13,7 +15,9 @@ Seaborn & Matplotlib
 Pickle for model serialization
 
 ----------------------------------------------------
-📌 Project Overview
+## **📌 Project Overview
+**
+
 This project demonstrates my data science workflow, from data wrangling to model deployment. It highlights my ability to:
 
 Clean and transform raw datasets 🧹
@@ -25,8 +29,10 @@ Engineer meaningful features 🛠️
 Build and evaluate regression models 📈
 
 Package the model for reuse with pickle 📦
+
 ----------------------------------------------------
-🧠 Objective
+## **🧠 Objective**
+
 The goal was to predict the price (in euros) of houses based on various features such as:
 
 Number of rooms 🛏️
@@ -38,8 +44,10 @@ Number of bathrooms 🚿
 Year built 🏗️
 
 Neighborhood 📍
+
 ----------------------------------------------------
-🗃️ Data Preprocessing
+## **🗃️ Data Preprocessing**
+
 ✅ Loaded dataset from a .pkl file using pickle.
 
 ✅ Converted all relevant string columns to lowercase and encoded categorical features with LabelEncoder.
@@ -47,15 +55,19 @@ Neighborhood 📍
 ✅ Removed outliers based on price and size using boxplots and logical filtering.
 
 ✅ Added a log transformation of the target variable for better distribution (price_euro_lg).
+
 ----------------------------------------------------
-📊 Exploratory Data Analysis
+## **📊 Exploratory Data Analysis**
+
 Used seaborn.pairplot() to identify relationships between numerical features.
 
 Checked for outliers with box plots.
 
 Discovered that size and year built showed meaningful variation with price.
+
 ----------------------------------------------------
-🤖 Model Building
+## **🤖 Model Building**
+
 Model Used: RandomForestRegressor from sklearn.ensemble
 
 500 estimators
@@ -79,16 +91,20 @@ bathrooms
 neighbourhood (encoded)
 
 year_built
+
 ----------------------------------------------------
-📈 Results
+## **📈 Results**
+
 Metric	Value
 OOB Score	0.67 🌟
 MAE	~€17,552 💰
 RMSE	~€22,959 📉
 
 These results show the model performs decently and captures important pricing signals.
+
 ----------------------------------------------------
-💾 Model Export
+## **💾 Model Export**
+
 The trained model was serialized and saved using pickle:
 
 python
@@ -104,4 +120,3 @@ Property size 📐
 Year built 🏗️
 
 Neighborhood 📍
-----------------------------------------------------
