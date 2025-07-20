@@ -1,6 +1,6 @@
 🏡 Cluj Housing Price Prediction with Random Forest
 Welcome to my machine learning project where I built a predictive model to estimate house prices in Cluj, Romania 🇷🇴 using real-world property data and Random Forest Regression 🌲.
-
+----------------------------------------------------
 📌 Project Overview
 This project demonstrates my data science workflow, from data wrangling to model deployment. It highlights my ability to:
 
@@ -13,7 +13,7 @@ Engineer meaningful features 🛠️
 Build and evaluate regression models 📈
 
 Package the model for reuse with pickle 📦
-
+----------------------------------------------------
 🧠 Objective
 The goal was to predict the price (in euros) of houses based on various features such as:
 
@@ -26,7 +26,7 @@ Number of bathrooms 🚿
 Year built 🏗️
 
 Neighborhood 📍
-
+----------------------------------------------------
 🗃️ Data Preprocessing
 ✅ Loaded dataset from a .pkl file using pickle.
 
@@ -35,14 +35,14 @@ Neighborhood 📍
 ✅ Removed outliers based on price and size using boxplots and logical filtering.
 
 ✅ Added a log transformation of the target variable for better distribution (price_euro_lg).
-
+----------------------------------------------------
 📊 Exploratory Data Analysis
 Used seaborn.pairplot() to identify relationships between numerical features.
 
 Checked for outliers with box plots.
 
 Discovered that size and year built showed meaningful variation with price.
-
+----------------------------------------------------
 🤖 Model Building
 Model Used: RandomForestRegressor from sklearn.ensemble
 
@@ -67,7 +67,7 @@ bathrooms
 neighbourhood (encoded)
 
 year_built
-
+----------------------------------------------------
 📈 Results
 Metric	Value
 OOB Score	0.67 🌟
@@ -75,7 +75,7 @@ MAE	~€17,552 💰
 RMSE	~€22,959 📉
 
 These results show the model performs decently and captures important pricing signals.
-
+----------------------------------------------------
 💾 Model Export
 The trained model was serialized and saved using pickle:
 
@@ -92,7 +92,7 @@ Property size 📐
 Year built 🏗️
 
 Neighborhood 📍
-
+----------------------------------------------------
 Plotted using seaborn.barplot() for interpretability.
 
 🧰 Tech Stack
