@@ -105,4 +105,3 @@ Year built 🏗️
 
 Neighborhood 📍
 ----------------------------------------------------
-Plotted using seaborn.barplot() for interpretability.
