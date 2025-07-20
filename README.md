@@ -1,6 +1,18 @@
 🏡 Cluj Housing Price Prediction with Random Forest
 Welcome to my machine learning project where I built a predictive model to estimate house prices in Cluj, Romania 🇷🇴 using real-world property data and Random Forest Regression 🌲.
 ----------------------------------------------------
+🧰 Tech Stack
+Python 🐍
+
+Pandas, NumPy
+
+Scikit-learn
+
+Seaborn & Matplotlib
+
+Pickle for model serialization
+
+----------------------------------------------------
 📌 Project Overview
 This project demonstrates my data science workflow, from data wrangling to model deployment. It highlights my ability to:
 
@@ -94,14 +106,3 @@ Year built 🏗️
 Neighborhood 📍
 ----------------------------------------------------
 Plotted using seaborn.barplot() for interpretability.
-
-🧰 Tech Stack
-Python 🐍
-
-Pandas, NumPy
-
-Scikit-learn
-
-Seaborn & Matplotlib
-
-Pickle for model serialization
